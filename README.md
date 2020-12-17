@@ -18,26 +18,16 @@
   * Submit the link to your pull request on Canvas. 
 
 
-# Question One
+# Question One: Text duplicator
 
-Make a website with a heading, an input text field and a button.  Clicking the button should change the heading's text to be the text in the input.
+Make a website with a text input, a number input and a button.  Clicking on the button should add that many copies of the text in the text input to a list.
 
-# Question Two
+# Question Two: Number statistics
 
-Make a website that displays a list containing all of the names below.  Make all of your `<li>` items inside of a script.
+Make a website with a number input, a button, and 3 paragraphs.  Clicking on the button should add the number to a list.  The first paragraph should show the average of all the numbers, the second paragraph should show the maximum value, and the third paragraph should show the minimum value.
 
-```js
-{
-  "results" : [
-    { "name" : "Anne" },
-    { "name" : "Bri" },
-    { "name" : "Chaz" },
-    { "name" : "Darlene" }
-  ]
-}
-```
 
-# Question Three
+# Question Three: Random User List
 
 Make a website that displays a list containing all of the nationality, first name and last name of all of the users below:
 
@@ -146,7 +136,7 @@ Make a website that displays a list containing all of the nationality, first nam
 }
 ```
 
-# Question Four
+# Question Four: Star Wars Names and Populations
 
 Make a website that displays a list of all of the names and populations of the following Star Wars planets
 
@@ -375,27 +365,3 @@ Make a website that displays a list of all of the names and populations of the f
   ]
 }
 ```
-
-# Question Five
-
-Make a website with a text input and a button.  Clicking on the button should create a new list item with its text the same as the text in the input.
-
-# Question Six
-
-Make a website with a text input, a number input and a button.  Clicking on the button should add that many copies of the text in the text input to a list.
-
-# Question Seven
-
-Make a website with a number input, a button, and 3 paragraphs.  Clicking on the button should add the number to a list.  The first paragraph should show the average of all the numbers, the second paragraph should show the maximum value, and the third paragraph should show the minimum value.
-
-# Question Eight
-
-Make a website with a button.  Clicking on the button should remove the button.
-
-# Question Nine
-
-Make a website with a button, and 5 paragraph tags.  Clicking on the button should remove all of the paragraphs.
-
-# Question Ten
-
-Make a website with a number input, a heading and a button. Clicking on the button should replace the heading with a heading matching the number in the input.  (e.g Entering 4 into the number input should turn the heading into `<h4>`)
