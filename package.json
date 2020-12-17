@@ -1,0 +1,19 @@
+{
+  "name": "adding_elements_to_the_dom_lab",
+  "version": "1.0.0",
+  "description": "[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinpursuit/adding_elements_to_the_dom_lab.git"
+  },
+  "author": "Ben Stone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joinpursuit/adding_elements_to_the_dom_lab/issues"
+  },
+  "homepage": "https://github.com/joinpursuit/adding_elements_to_the_dom_lab#readme"
+}
