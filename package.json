@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/joinpursuit/adding_elements_to_the_dom_lab/issues"
   },
-  "homepage": "https://github.com/joinpursuit/adding_elements_to_the_dom_lab#readme"
+  "homepage": "https://github.com/joinpursuit/adding_elements_to_the_dom_lab#readme",
+  "devDependencies": {
+    "cypress": "^6.1.0"
+  }
 }
