@@ -1,15 +1,13 @@
-describe("text duplicator", () => {
-    it("Valid path exists to text duplicator", () => {
-      cy.visit("./textDuplicator.html");
-    });
-    it("Duplicates text the correct number of times", () => {
-        cy.get("#text-duplicator-string-input")
+describe("1. Text Duplicator", () => {
+  for (let i = 1; i <= 5; i += 1) {
+    it(`duplicates text when the input is ${i}`, () => {
+      cy.get("#text-duplicator-string-input")
         .type("Hello world!")
         .get("#text-duplicator-number-input")
-        .type("5")
+        .type(`${i}`)
         .get("#text-duplicator-list li")
-        .should('have.length', 5)
-        .each((item) => expect(item).to.contain("Hello world!"))
-    })
-})
-  
+        .should("have.length", i)
+        .each((item) => expect(item).to.contain("Hello world!"));
+    });
+  }
+});
