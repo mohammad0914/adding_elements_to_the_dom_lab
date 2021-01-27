@@ -4,7 +4,7 @@
   "description": "[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "./node_modules/.bin/cypress open"
   },
   "repository": {
     "type": "git",

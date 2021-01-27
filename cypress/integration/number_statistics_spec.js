@@ -1,7 +1,12 @@
 describe("2. Number Statistics", () => {
+  beforeEach(() => {
+    cy.visit("./numberStatistics.html");
+  });
+
   const inputValues = (...values) => {
     for (const value of values) {
       cy.get("#number-statistics-number-input")
+        .clear()
         .type(`${value}`)
         .get("#number-statistics-form button")
         .click();
@@ -24,6 +29,6 @@ describe("2. Number Statistics", () => {
 
   it("displays maximum and minimum in the paragraphs when multiple numbers are entered", () => {
     inputValues(7, 14, 42);
-    expectStatistics(21, 42, 14);
+    expectStatistics(21, 42, 7);
   });
 });
