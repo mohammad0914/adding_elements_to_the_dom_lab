@@ -1,15 +1,27 @@
-describe("text duplicator", () => {
-    it("Valid path exists to text duplicator", () => {
+describe("1. Text Duplicator", () => {
+  for (let i = 1; i <= 5; i += 1) {
+    it(`duplicates text when the input is ${i}`, () => {
       cy.visit("./textDuplicator.html");
-    });
-    it("Duplicates text the correct number of times", () => {
-        cy.get("#text-duplicator-string-input")
+
+      cy.get("#text-duplicator-string-input")
+        .clear()
         .type("Hello world!")
         .get("#text-duplicator-number-input")
-        .type("5")
+        .clear()
+        .type(`${i}`)
+        .get("#text-duplicator-form button")
+        .click()
         .get("#text-duplicator-list li")
-        .should('have.length', 5)
+        .should("have.length", i)
         .each((item) => expect(item).to.contain("Hello world!"))
-    })
-})
-  
+        .get("#text-duplicator-number-input")
+        .clear()
+        .type('3')
+        .get("#text-duplicator-form button")
+        .click()
+        .get("#text-duplicator-list li")
+        .should("have.length", i + 3)
+        .each((item) => expect(item).to.contain("Hello world!"));
+    });
+  }
+});
