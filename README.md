@@ -20,16 +20,15 @@
 
 # Question One: Text Duplicator
 
-Make a website with a text input, a number input and a button.  Clicking on the button should add that many copies of the text in the text input to a list.
+Make a website (`textDuplicator.html`) with a text input, a number input and a button.  Clicking on the button should add that many copies of the text in the text input to a list.
 
 # Question Two: Number Statistics
 
-Make a website with a number input, a button, and 3 paragraphs.  Clicking on the button should add the number to a list.  The first paragraph should show the average of all the numbers, the second paragraph should show the maximum value, and the third paragraph should show the minimum value.
-
+Make a website (`numberStatistics.html`) with a number input, a button, and 3 paragraphs.  Clicking on the button should add the number to a list.  The first paragraph should show the average of all the numbers, the second paragraph should show the maximum value, and the third paragraph should show the minimum value.
 
 # Question Three: Random User List
 
-Make a website that displays a list containing all of the nationality, first name and last name of all of the users below:
+Make a website (`userList.html`) that displays a list containing all of the nationality, first name and last name of all of the users below:
 
 [Source](https://randomuser.me/api/?inc=gender,name,nat&&results=10)
 
@@ -138,7 +137,7 @@ Make a website that displays a list containing all of the nationality, first nam
 
 # Question Four: Star Wars Names and Populations
 
-Make a website that displays a list of all of the names and populations of the following Star Wars planets
+Make a website (`starWars.html`) that displays a list of all of the names and populations of the following Star Wars planets
 
 ```js
 {
