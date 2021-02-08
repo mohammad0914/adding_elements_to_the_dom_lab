@@ -28,7 +28,7 @@ Make a website (`numberStatistics.html`) with a number input, a button, and 3 pa
 
 # Question Three: Random User List
 
-Make a website (`userList.html`) that displays a list containing all of the nationality, first name and last name of all of the users below:
+Make a website (`userList.html`) that displays a list with id='user-list' containing all of the nationality, first name and last name of all of the users below. Example: `ruth nicolas (CH)`
 
 [Source](https://randomuser.me/api/?inc=gender,name,nat&&results=10)
 
@@ -137,7 +137,7 @@ Make a website (`userList.html`) that displays a list containing all of the nati
 
 # Question Four: Star Wars Names and Populations
 
-Make a website (`starWars.html`) that displays a list of all of the names and populations of the following Star Wars planets
+Make a website (`starWars.html`) that displays a list with id='planets-list' of all of the names and populations of the following Star Wars planets. Example: `Alderaan (pop. 2000000000)`
 
 ```js
 {

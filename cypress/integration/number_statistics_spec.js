@@ -8,7 +8,7 @@ describe("2. Number Statistics", () => {
       cy.get("#number-statistics-number-input")
         .clear()
         .type(`${value}`)
-        .get("#number-statistics-form button")
+        .get("#number-statistics-button")
         .click();
     }
   };
