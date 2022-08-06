@@ -21,5 +21,26 @@
         list items to an unordered list with id='text-duplicator-list'
       </li>
     </ul>
+    <input type="text" id="text-duplicator-string-input">
+    <input type="text"id="text-duplicator-number-input">
+    <input type="button" id="text-duplicator-button" onclick="textDuplicate()">
+    <ol id="text-duplicator-list"></ol>
+
+    <script>
+      const textDuplicate=()=>{
+        let inputText=document.getElementById("text-duplicator-string-input").value;
+        let numberInput=parseInt(document.getElementById("text-duplicator-number-input").value);
+
+        let orderList=document.getElementById("text-duplicator-list");
+        for (let index = 1; index <=numberInput; index++) {
+          let listItem=document.createElement("li") ;
+          listItem.textContent=inputText;
+          orderList.appendChild(listItem);
+                   
+        }
+
+      }
+    </script>
+
   </body>
 </html>
